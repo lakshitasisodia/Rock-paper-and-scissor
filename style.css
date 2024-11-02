@@ -41,7 +41,7 @@ nav {
 #messagebox {
     background-color: rgb(102, 243, 102);
     height: 7vh;
-    width: 50vh;
+    width: 45vh;
     font-weight: bolder;
     display: flex;
     justify-content: center;
