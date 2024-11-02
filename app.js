@@ -17,7 +17,8 @@ const checkwinner =(user,comp) =>
 {
     if (user == comp) {
        messagebox.innerText ="It's a draw";
-       messagebox.style.color = "black"
+       messagebox.style.color = "white"
+       messagebox.style.backgroundColor="orange"
     }
     else{
 
@@ -25,11 +26,13 @@ const checkwinner =(user,comp) =>
             compscore++
             messagebox.innerText = `Computer won because it choose ${comp}`
             messagebox.style.color = "red"
+        messagebox.style.backgroundColor = "pink"
             
         } else {
             userscore++
             messagebox.innerText = `You won because computer choose ${comp}`
             messagebox.style.color = "green"
+        messagebox.style.backgroundColor = "yellow"
         }
     }
 }
